@@ -1,0 +1,78 @@
+.nav-container{
+    height:13vh;
+    display:flex;
+    flex-direction:row;
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height:100%;
+}
+.nav-buttons-container{
+    width:35%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+}
+.nav-buttons-li{
+    color:orange;
+    font-weight:bold;
+    cursor:pointer;
+    font-family: "Roboto";
+    font-size:18px;
+    text-decoration: none;
+}
+.nav-buttons-li:hover{
+    color:black;
+    font-weight:bold;
+    cursor:pointer;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size:18px;
+}
+.profile-logo-link{
+    text-decoration: none;
+    color:white;
+}
+.profile-logo{
+    height:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    text-decoration: none;
+    border-radius:50%;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    font-family: "Roboto";
+    font-size:21px;
+}
+.profile-logo-active{
+     height:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    border-radius:50%;
+    background-color:green;
+    color:white;
+    font-weight:bold;
+    font-family: "Roboto";
+    font-size:21px;
+    border:2px solid black;
+}
+.link-element-avoid-blue{
+    text-decoration: none;
+}
+.logo-link{
+     height:100%;
+}

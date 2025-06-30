@@ -1,0 +1,88 @@
+.main-login-container{
+    background-image:linear-gradient(to top left,white,rgb(249, 182, 27));
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-container{
+    width:60%;
+    background-color:white;
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+}
+.login-left-container{
+width:50%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+padding-right:30px;
+padding-top:25px;
+padding-bottom: 25px;
+}
+.brand-name{
+    font-family:"Roboto";
+    color:rgb(250, 151, 3);
+    font-size:42px;
+    margin:8px;
+}
+.login-mango-image{
+    width:100%;
+}
+.login-right-container{
+width:50%;
+padding:30px;
+display:flex;
+flex-direction: column;
+padding-left:20px;
+}
+.welcome-text{
+    font-size:33px;
+    font-family:"Roboto";
+    font-weight:550;
+    margin-bottom:17px;
+    color:rgb(39, 38, 38);
+}
+.label-element{
+    font-size:13px;
+    font-weight:600;
+    font-family: "Roboto";
+    margin-top:28px;
+    color:rgba(18, 16, 16, 0.967);
+}
+.input-element{
+    width:60%;
+    border: none;
+    margin-top:5px;
+    outline-color:rgba(70, 69, 69, 0.611) ;
+    background-color: rgba(220, 209, 209, 0.344);
+    padding: 13px;
+    border-radius: 5px;
+    color:black;
+    font-weight:bold;
+    font-family:"Roboto";
+}
+.login-button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: end;
+    margin-top:35px;
+    width:65%;
+}
+.login-button{
+    height:39px;
+    width:100px;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    border-radius:7px;
+    background-color:rgb(250, 167, 12);
+    color:white;
+    font-weight:bold;
+    font-family:"Roboto";
+    font-size:16px;
+}

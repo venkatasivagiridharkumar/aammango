@@ -1,0 +1,52 @@
+.profile-container{
+    min-height: 100vh;
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+}   
+.profile-photo-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.profile-image{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+}
+.profile-name{
+    color:rgb(119, 33, 1);
+    font-size: 26px;
+    font-family:"Roboto";
+    margin-left:20px;
+    font-weight:bold;
+}
+.profile-list-container{
+    width:80%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+.logout-button{
+     height:39px;
+    width:100px;
+    border: none;
+    outline:none;
+    cursor:pointer;
+    border-radius:7px;
+    background-color:rgb(250, 167, 12);
+    color:white;
+    font-weight:bold;
+    font-family:"Roboto";
+    margin-top: 40px;
+    font-size:16px;
+}
